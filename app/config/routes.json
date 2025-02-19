@@ -1,0 +1,16 @@
+[
+        {
+            "methods": ["GET"],
+            "path": "/",
+            "controller": "BlogController",
+            "action": "listBlogs"
+        },
+        {
+            "methods": ["POST"],
+            "path": "/login.php",
+            "controller": "AuthController",
+            "action": "login"
+        }
+
+]
+
